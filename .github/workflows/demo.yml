@@ -5,6 +5,6 @@ on:
 
 jobs:
     deploy:
-        runs-on: ubuntu-latests
+        runs-on: ubuntu-latest
         steps:
             - run: echo "Sergi Justiniano Claramunt"
