@@ -1,0 +1,10 @@
+name: Name Echo Workflow
+
+on:
+    workflow_dispatch:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latests
+        steps:
+            - run: echo "Sergi Justiniano Claramunt"
